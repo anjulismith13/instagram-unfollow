@@ -1,5 +1,5 @@
 # instagram-unfollow
-A script that analyzes Instagram engagement data to determine who to unfollow
+A process for analyzing Instagram engagement data to determine who to unfollow
 
 Backstory:
 I had done a "follow for follow" with many accounts 
