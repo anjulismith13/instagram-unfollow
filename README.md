@@ -30,9 +30,7 @@ The list of accounts one follows can be highlighted and copied from the modal (l
 The .har file could then be treated like a .json file and parsed to pull out the account names. I've included the parsing file I wrote in Python [here](https://github.com/anjulismith13/instagram-unfollow/blob/master/har-parser.py). 
 The copy/pasted follower list was much easier to parse than the network requests. Those two lists could then be compared for overlap, with the accounts a user follows that haven't liked any of the user's posts being added to an unfollow.txt file.
 
-I also included functionality for a "whitelist" of accounts that a user wants to keep following, regardless of their engagement with your posts. The accounts bound for the 
-
-I have included the script I used to parse 
+I also included functionality for a "whitelist" of accounts that a user wants to keep following, regardless of their engagement with your posts. Each account bound for the unfollow list is compared against the whitelist before being added. 
 
 
 ### Analysis
