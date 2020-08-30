@@ -3,7 +3,9 @@
 A personal project for "scraping" Instagram engagement data to analyze.
 
 ### Use Case
-Many accounts do a "follow for follow" strategy, where they follow accounts so that they follow you back. However, many of those accounts will then mute you (a feature that blocks you from showing up in their feed or story carousel), adding to your follower count, but not your like or comment counts, thus lowering your engagement. For Instagram users hoping to attract brands to work with, a low engagement score is toxic. 
+
+--scratch this, just talk about ghost followers/followers who have muted you
+Instagram users  a "follow for follow" strategy, where they follow accounts so that they follow you back. However, many of those accounts will then mute you (a feature that blocks you from showing up in their feed or story carousel), adding to your follower count, but not your like or comment counts, thus lowering your engagement. For Instagram users hoping to attract brands to work with, a low engagement score is toxic. 
 
 Although Instagram does not allow you to see who has muted you, a strategy for finding "ghost followers" can weed out those who have muted you as well. Ghost followers are accounts that follow you, but don't engage with your posts (through likes or comments). 
 
