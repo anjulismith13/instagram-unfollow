@@ -8,7 +8,7 @@ With the rise of influencer marketing on Instagram, engagement metrics became an
 
 Although ghost followers are commonly associated with "bot" accounts, this term also includes users who have "muted" your content, a feature that blocks your posts or stories from showing up on their feeds. So while they are contributing to the number of accounts who follow you, they will not engage with your content through likes, comments, etc, thus lowering your engagement score. [This article](https://blog.kicksta.co/ghost-followers-on-instagram/) explains in more detail why a low engagement store is toxic for Instagram users hoping to attract brands to work with. 
 
-Instagram's API does not provide information on which accounts have muted you. However, you can find those who are likely to have muted you by looking at which accounts have (not) liked your posts. This strategy would weed out the accounts who have muted you, in addition to bot accounts. 
+Instagram's API does not provide information on which accounts have muted you. However, you can find those who are likely to have muted you by looking at which accounts have (not) liked your posts. This strategy would weed out both the accounts who have muted you and bot accounts. 
 
 Unfortunately, the Instagram API does not provide information on which specific accounts have liked or commented on your posts, so it is impossible to compare a follower list to a list of "likers" solely using the Instagram API. 
 
