@@ -25,11 +25,11 @@ f = open('following-list.txt')
 following_file = f.readlines()
 f.close()
 
-g = open('whitelist.txt')
-whitelist_orig = g.readlines()
-whitelist = []
-for account in whitelist_orig:
-    whitelist.append(account.strip())
+g = open('passlist.txt')
+passlist_orig = g.readlines()
+passlist = []
+for account in passlist_orig:
+    passlist.append(account.strip())
 g.close()
 
 
@@ -76,14 +76,14 @@ def compare_lists(post_list, following_list):
     h = open(filename, 'w')
 
     for acc in following:
-        if (acc not in likers) and (acc not in whitelist):
+        if (acc not in likers) and (acc not in passlist):
             h.write(acc)
             h.write("\n")
         h.close()
 
     # to_unfollow = []
     # for account in following:
-    #     if (account not in likers) and (account not in whitelist):
+    #     if (account not in likers) and (account not in passlist):
     #         to_unfollow.append(account)
     #
     # return to_unfollow
