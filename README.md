@@ -4,10 +4,11 @@ A personal project for "scraping" Instagram engagement data to analyze.
 
 ### Use Case
 
---scratch this, just talk about ghost followers/followers who have muted you
-Instagram users  a "follow for follow" strategy, where they follow accounts so that they follow you back. However, many of those accounts will then mute you (a feature that blocks you from showing up in their feed or story carousel), adding to your follower count, but not your like or comment counts, thus lowering your engagement. For Instagram users hoping to attract brands to work with, a low engagement score is toxic. 
+With the rise of influencer marketing on Instagram, engagement metrics are becoming an increasingly valuable statistic for burgeoning influencers to have when trying to appeal to brands. While a high number of followers is important, what is arguably more important is the fraction of your followers who actually see and engage with your content. Those who do not are called "ghost followers." Ghost followers are accounts that follow you, but don't engage with your posts (through likes or comments). 
 
-Although Instagram does not allow you to see who has muted you, a strategy for finding "ghost followers" can weed out those who have muted you as well. Ghost followers are accounts that follow you, but don't engage with your posts (through likes or comments). 
+Although ghost followers are commonly associated with "bot" accounts, this term also includes users who have "muted" your content, a feature that blocks your posts or stories from showing up on their feeds. So while they are contributing to the number of accounts who follow you, they will not engage with your content through likes, comments, etc, thus lowering your engagement score. !(This article)[https://blog.kicksta.co/ghost-followers-on-instagram/] explains in more detail why a low engagement store is toxic for users hoping to attract brands to work with. 
+
+Instagram's API does not provide information on which accounts have muted you. However, you can find those who are likely to have muted you by looking at which accounts have not liked your posts. This strategy would weed out the accounts who have muted you, in addition to bot accounts. 
 
 Unfortunately, the Instagram API does not provide information on which specific accounts have liked or commented on your posts, so it is impossible to compare a follower list to a list of "likers" solely using the Instagram API. 
 
@@ -26,7 +27,7 @@ For each post I wanted to gather data about, I would open Developer Tools, open 
 
 The list of accounts one follows can be highlighted and copied from the modal (likely because this is information available through the API, so the "safeguard" against web crawlers is not necessary) and the resulting text can be pasted into a .txt file. 
 
---include a phiti--
+--include a photo--
 
 ### Data Parsing
 
