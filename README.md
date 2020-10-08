@@ -16,7 +16,7 @@ Unfortunately, the Instagram API does not provide information on which specific 
 
 Although the Instagram API does not provide this information, individual users are able to manually view the list of people who have liked a certain post, both in the Instagram app and the Instagram website. 
 
-I tried a variety of methods for pulling this list, from highlighting and copying/pasting it to web scrapers. However, the elements of the list are loaded and unloaded dynamically as a user scrolls, so that the only account information present in the code is those accounts that are currently visible in the modal. This eliminated the possibility of highlighting and copying the list or using a traditional web scraper. 
+I tried a variety of methods for pulling this list, from highlighting and copying/pasting it to web scrapers. However, the elements of the list are loaded and unloaded dynamically as a user scrolls, so that the only account information present in the code is of those accounts that are currently visible in the modal. This eliminated the possibility of highlighting and copying the list or using a traditional web scraper. 
 
 I got the idea to browse the network requests from this video - https://www.youtube.com/watch?v=oLc_-IeZGiE. 
 
