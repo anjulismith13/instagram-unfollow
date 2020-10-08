@@ -4,7 +4,7 @@ A personal project for "scraping" Instagram engagement data to analyze.
 
 ### Use Case
 
-With the rise of influencer marketing on Instagram, engagement metrics are becoming an increasingly valuable statistic for burgeoning influencers to have when trying to appeal to brands. While a high number of followers is important, what is arguably more important is the fraction of your followers who actually see and engage with your content. Those who do not are called "ghost followers." Ghost followers are accounts that follow you, but don't engage with your posts (through likes or comments). 
+With the rise of influencer marketing on Instagram, engagement metrics are becoming an increasingly valuable statistic for burgeoning influencers when trying to appeal to brands. While a high number of followers is important, what is arguably more important is the fraction of your followers who actually see and engage with your content. Those who do not are called "ghost followers." Ghost followers are accounts that follow you, but don't engage with your posts (through likes or comments). 
 
 Although ghost followers are commonly associated with "bot" accounts, this term also includes users who have "muted" your content, a feature that blocks your posts or stories from showing up on their feeds. So while they are contributing to the number of accounts who follow you, they will not engage with your content through likes, comments, etc, thus lowering your engagement score. [This article](https://blog.kicksta.co/ghost-followers-on-instagram/) explains in more detail why a low engagement store is toxic for Instagram users hoping to attract brands to work with. 
 
