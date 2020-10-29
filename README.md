@@ -48,4 +48,4 @@ The first time I tried this, Instagram (understandably) temporarily blocked me, 
 
 I've included sample data (of following lists, passlist, post .har files) for a celebrity's public account (@jenniferaniston). 
 
-create a sample data folder
+--create a sample data folder--
