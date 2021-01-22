@@ -23,7 +23,7 @@ I got the idea to browse the network requests from [this video](https://www.yout
 ### Data Collection
 
 For each post I wanted to gather data about, I clicked on the post, opened Developer Tools, open the list of likers, and scroll all the way to the bottom of the list, with develop tools open. Scrolling to the bottom created network requests that included all of the likers for the post. I could then export the .har file of the network requests straight from the Network tab. 
-![](network-tab.png)
+![](writeup-imgs/network-tab.png)
 
 Collecting data on the list of accounts one follows was easier, likely because this is information available through the API, so the "safeguard" against web crawlers was not in place. I was able to highlight and copy/paste the list from the modal and make the resulting text a simple .txt file. 
 
