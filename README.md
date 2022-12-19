@@ -18,8 +18,6 @@ Although the Instagram API does not provide this information, individual users a
 
 I tried a variety of methods for pulling this list, from highlighting and copying/pasting it to web scrapers. However, the elements of the list are loaded and unloaded dynamically as a user scrolls, so that the only account information present in the code is of those accounts that are currently visible in the modal. This eliminated the possibility of highlighting and copying the list or using a traditional web scraper. 
 
-I got the idea to browse the network requests from [this video](https://www.youtube.com/watch?v=oLc_-IeZGiE). 
-
 ### Data Collection
 
 For each post I wanted to gather data about, I clicked on the post, opened Developer Tools, open the list of likers, and scroll all the way to the bottom of the list, with develop tools open. Scrolling to the bottom created network requests that included all of the likers for the post. I could then export the .har file of the network requests straight from the Network tab. 
